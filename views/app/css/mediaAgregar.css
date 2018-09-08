@@ -1,0 +1,24 @@
+/* ESTILOS NORMALES (para móviles en vertical)
+   ========================================================================= */
+ .postear{border-radius:5px; width:96%; background-color:white; position:absolute; top:13%; z-index:1; padding:1%; }
+ #categoria{left:2%; min-height:60%; top:20%; height:60%;}
+/* RESPONSIVE
+   ========================================================================= */
+ 
+/* Móviles en horizontal o tablets en vertical
+   ------------------------------------------------------------------------- */
+@media (min-width: 768px) { 
+.postear{border-radius:5px; width:70%;background-color:white; position:absolute; top:13%; z-index:1; padding:1%;}
+#categoria{left:15%; min-height:70%; top:20%; height:70%;}
+}
+ 
+/* Tablets en horizonal y escritorios normales
+   ------------------------------------------------------------------------- */
+@media (min-width: 1024px) { 
+.postear{border-radius:5px; width:70%;background-color:white; position:absolute; top:13%; z-index:1; padding:1%;}
+#categoria{left:15%; min-height:70%; top:17%; height:70%;}
+.selecat{z-index:1000; cursor:pointer; position:relative; left:; top:; margin:0% 0% 5% 8.6%; float:left; width:22%; height:40%; background:black; border-radius:10px; border-size:1px; border-color:black;}
+}
+ 
+/* Escritorios muy anchos
+   ------------------------------------------------------------------------- */

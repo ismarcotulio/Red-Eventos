@@ -1,0 +1,30 @@
+.modal{
+	text-align: center;
+	padding: 0;
+
+
+}
+.modal:before{
+	content: '';
+	display:inline-block;
+	height:100%;
+	vertical-align:middle;
+	margin-right:0;
+	top:30%;
+
+}
+.modal-dialog{
+	display:inline-block;
+	text-align: left;
+	vertical-align:middle;
+	opacity:;
+}
+.modal-header{
+	color:white;
+	opacity:0.9;
+	background:#041E35;
+}
+.modal-body{
+	opacity:;
+}
+

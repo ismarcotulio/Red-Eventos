@@ -1,0 +1,455 @@
+.unselectable {
+     -webkit-touch-callout: none;
+     -webkit-user-select: none;
+     -khtml-user-select: none;
+     -moz-user-select: none;
+     -ms-user-select: none;
+     user-select: none;
+   }
+.checkboxFive label {
+	cursor: pointer;
+	position: absolute;
+	width: 350px;
+	height: 30px;
+	top: 0;
+  	left: 0;
+	background: #eee;
+	border:1px solid #ddd;
+}
+.checkboxFive {
+	width: 30px;
+	margin: 20px 100px;
+	position: absolute;
+	top:50%;
+	left:20%;
+}
+.checkboxFive label:after {
+	opacity: 0.2;
+	content: '';
+	position: absolute;
+	width: 10px;
+	height: 5px;
+	background: transparent;
+	top: 10px;
+	left: 9px;
+	border: 3px solid #333;
+	border-top: none;
+	border-right: none;
+
+	transform: rotate(-45deg);
+}
+/**
+ * Create the hover event of the tick
+ */
+.checkboxFive label:hover::after {
+	opacity: 0.5;
+}
+
+/**
+ * Create the checkbox state for the tick
+ */
+.checkboxFive input[type=checkbox]:checked + label:after {
+	opacity: 1;
+}
+.post1{
+	left:30px;
+}
+.estre{
+	display:;
+}
+
+.cuerpo{
+	display:; padding:; opacity:; top:12%; left:33%; width:35%; height:80%; background:transparent; border-radius:5px; z-index:1; position:absolute;
+}
+.input{
+	margin-bottom:10px;
+	width:80%;
+	height:10%;
+	position:absolute;
+}
+.cuerpo .row{
+	margin-bottom:10px;
+}
+.cuerpo form {
+	padding:10%;
+
+}
+.navbar{
+	background:transparent ;
+	border-style:;
+	border-radius:;
+	border-width:;
+	border-color: ;
+	font-family: "tahoma";
+	font-size:18px;
+	opacity:0.5;
+	height:;
+	color:white;
+	transition:opacity 1s,background 1s;
+	z-index:10;
+}
+.navbar:hover{
+	opacity:1;
+	background:;
+}
+.meteorito{
+	animation-name:meteorito;
+	animation-duration:100s;
+	animation-delay:;
+	animation-iteration-count:infinite;
+	 animation-direction:;
+	 animation-timing-function: easy-in;
+
+
+}
+@keyframes meteorito{
+	0%{top:0;left:-20%;}
+	10%{top:10%;left:10%;}
+	20%{top:20%;left:20%;}
+	30%{top:30%;left:30%;}
+	40%{top:40%;left:40%;opacity:0;}
+	50%{top:50%;left:50%;opacity:0;}
+	60%{top:60%;left:60%;opacity:;}
+	70%{top:70%;left:70%;opacity:1;}
+	80%{top:80%;left:80%;}
+	90%{top:90%;left:90%;}
+	100%{top:95%;left:95%;opacity:0;}
+}
+.tipografia{
+	left:15%;
+	top:80%;
+	position:absolute;
+	width:70%;
+	height:50%;
+}
+.botones{
+	width:20%; 
+	height:10%; 
+	left:40%;
+	position:absolute;
+	top:80%;
+	margin-top:10px;
+}
+.btn-comenzar{
+	background-color: transparent;
+	border-style:solid;
+	border-radius:5px;
+	border-width: ;
+	padding:0;
+	border-color: white;
+	position:;
+	z-index:10;
+	color: white;
+	transition:background 1s,opacity 1s,border-color 1s;
+}
+.btn-comenzar:after{
+	transition:opacity 1s;
+	background:white;
+	opacity:0;
+	z-index: 11;
+	text-decoration:none ;
+	color:none;
+}
+.btn-comenzar:hover{
+	opacity:0.8;
+	background-color: #CCCDCE;
+	border-color: #CCCDCE;
+}
+.btn-comenzar:alink{
+	color:white;
+}
+a:link {
+color: #FFf;
+text-decoration: none;
+}
+.btn-comenzar span{
+	position:absolute;
+	top:20%;
+	left:23%;
+	font-size:25px;
+	z-index:12;
+}
+body {
+  text-align: ;
+  background: #212F57; 
+  background: -moz-radial-gradient(#1A2545,black); 
+  background: -webkit-radial-gradient(#1A2545,black);
+  background: -o-radial-gradient(#1A2545,black);
+  background: -ms-radial-gradient(#1A2545,black); 
+  background: radial-gradient(#1A2545,black);
+  
+
+
+background-attachment:fixed; background-repeat:no-repeat;
+}
+.animacion{
+	position:absolute; width:67%; height:50%; margin-top:; left:19%; top:13%; z-index:1;
+}
+.animacion1{
+	animation-name:ani;
+	animation-duration:2s;
+	animation-iteration-count:;
+	animation-fill-mode: forwards;
+    position:absolute;
+    animation-delay:;
+    z-index:;
+    width:40%; height:85%; left:27%; top:11%; position:absolute; z-index:3;
+}
+.logo{
+	opacity:0.7;
+	
+}
+.logo:hover{
+	opacity:0.8;
+	
+}
+@keyframes ani{
+	0%   {top:-100%;}
+    100%  {top: 11%;}
+}
+.animacion2{
+	animation-name:elipse;
+	animation-duration:3s;
+	animation-fill-mode:forwards;
+	position:;
+	animation-delay:;
+	display:; width:75%; height:90%; left:9%; top:8%; position:absolute; z-index:3;
+	
+}
+@keyframes elipse{
+	0%{opacity:0.0;}
+	25%{opacity:0.0;}
+	50%{opacity:0.0;}
+	75%{opacity:0.0;}
+	100%{opacity:1.0;}
+}
+.animacion3{
+	animation-name:dinero;
+	animation-duration:4s;
+	animation-fill-mode:forwards;
+	position:absolute;
+	width:4%;
+	height:8%;
+	display:;
+	transition:width 1s,height 1s;
+	cursor:pointer; position:absolute; left:77%; top:39%; position:absolute;z-index:100;
+	
+
+}
+.animacion3:hover{
+	cursor:pointer;
+	width:5%;
+	height:10%;
+}
+@keyframes dinero{
+	0%{opacity:0.0;}
+	25%{opacity:0.0;}
+	50%{opacity:0.0;}
+	75%{opacity:0.0;}
+	100%{opacity:1.0;}
+}
+.animacion4{
+	animation-name:ciencia;
+	animation-duration:4s;
+	animation-fill-mode:forwards;
+	position:absolute;
+	width:4%;
+	height:8%;
+	transition:width 1s, height 1s;
+	cursor:pointer; position:absolute; left:20%; top:25%; position:absolute; z-index:100;
+}
+.animacion4:hover{
+	cursor:pointer;
+	width:5%;
+	height:10%;
+}
+@keyframes ciencia{
+	0%{opacity:0.0;}
+	25%{opacity:0.0;}
+	50%{opacity:0.0;}
+	75%{opacity:0.0;}
+	100%{opacity:1.0;}
+}
+.animacion5{
+	animation-name:juegos;
+	animation-duration:6s;
+	animation-fill-mode:forwards;
+	position:absolute;
+	width:3%; height:6%;
+	transition:width 1s, height 1s;
+	cursor:pointer; position:absolute; left:25%; top:47%; position:absolute;z-index:100;
+}
+.animacion5:hover{
+	cursor:pointer;
+	width:4%;
+	height:8%;
+}
+@keyframes juegos{
+	0%{opacity:0.0;}
+	25%{opacity:0.0;}
+	50%{opacity:0.0;}
+	75%{opacity:0.0;}
+	100%{opacity:1.0;}
+}
+.animacion6{
+	animation-name:tierra;
+	animation-duration:5s;
+	animation-fill-mode:forwards;
+	position:absolute;
+	width:4%; height:8%;
+	transition:width 1s, height 1s;
+	cursor:pointer; position:absolute; left:16%; top:51%; position:absolute;z-index:3;
+}
+.animacion6:hover{
+	cursor:pointer;
+	width:5%;
+	height:10%;
+}
+@keyframes tierra{
+	0%{opacity:0.0;}
+	25%{opacity:0.0;}
+	50%{opacity:0.0;}
+	75%{opacity:0.0;}
+	100%{opacity:1.0;}
+}
+.animacion7{
+	animation-name:deporte;
+	animation-duration:5s;
+	animation-fill-mode:forwards;
+	position:absolute;
+	width:3%; height:6%;
+	transition:width 1s, height 1s;
+	cursor:pointer; position:absolute; left:67%; top:37%; position:absolute;z-index:3;
+}
+.animacion7:hover{
+	cursor:pointer;
+	width:4%;
+	height:8%;
+}
+@keyframes deporte{
+	0%{opacity:0.0;}
+	25%{opacity:0.0;}
+	50%{opacity:0.0;}
+	75%{opacity:0.0;}
+	100%{opacity:1.0;}
+}
+.animacion8{
+	animation-name:texto1;
+	animation-duration:3s;
+	animation-fill-mode:forwards;
+	animation-delay:;
+	display:;
+}
+@keyframes texto1{
+	0%{left:-150%;}
+	25%{left:-150%;}
+	50%{left:-150%;}
+	75%{left:-150%;}
+	100%{}
+}
+.animacion9{
+	animation-name:btn-comenzar;
+	animation-duration:7s;
+	animation-fill-mode:forwards;
+	animation-delay:;
+	display:;
+}
+@keyframes btn-comenzar{
+	0%{opacity:0;}
+	25%{opacity:0;}
+	50%{opacity:0;}
+	75%{opacity:0;}
+	100%{}
+}
+@media screen and (max-width:467px){
+	.animacion{
+		width:100%;
+		left:0%;
+		height:31%;
+		top:25%;
+		margin: 0;
+		padding:0;
+
+
+	}
+	.animacion1{
+		left:30%;
+	}
+	.animacion2{
+		left:12%;
+	}
+	.animacion3{
+		left:80%;
+	}
+	.animacion4{
+		left:23%;
+	}
+	.animacion5{
+		left:28%;
+	}
+	.animacion6{
+		left:19%;
+	}
+	.animacion7{
+		left:70%;
+	}
+	
+	.botones{
+		width:70%;
+		height:14%;
+		left:15%;
+		top:70%;
+		
+	}
+
+	
+}
+@media screen and (max-width:600px){
+	.cuerpo{
+		width:90%;
+		height:90%;
+		left:5%;
+		font-size:1vw;
+
+	}
+	.cuerpo div p{
+		font-size:1vw;
+	}
+}
+.efecto{
+	opacity:0.0;
+	transition:opacity 2s;
+	animation-name:estrellasp;
+	animation-duration:5s;
+	animation-iteration-count:infinite;
+	z-index:1;
+}
+@keyframes estrellasp{
+	0%{opacity:1.0;}
+	25%{opacity:0.0;}
+	50%{left:50%; opacity:1.0;}
+	75%{opacity:0.0;}
+	100%{right:50%; opacity:1.0;}
+	25%{opacity:0.0;}
+} 
+.efecto2{
+	opacity:0.0;
+	transition:opacity 2s;
+	animation-name:estrellasg;
+	animation-duration:5s;
+	animation-iteration-count:infinite;
+	z-index:1;
+
+}
+@keyframes estrellasg{
+	0%{left:50%; opacity:1.0;}
+	25%{opacity:0.0;}
+	50%{right:50%; opacity:1.0;}
+	75%{opacity:0.0;}
+	100%{left:50%; opacity:1.0;}
+	25%{opacity:0.0;}
+} 
+.efecto:hover{
+	opacity:1.0;
+}
+

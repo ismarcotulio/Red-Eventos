@@ -1,0 +1,256 @@
+/* ESTILOS NORMALES (para móviles en vertical)
+   ========================================================================= */
+.postContenedor{box-shadow: 0 0 14px #888; z-index:4; margin-bottom:5%; margin-top:70px; left:7.5%; background:white; width:85%; min-height:90%; position:relative;}
+
+.posttituloContenedor{width:100%; height:12%; background:; margin:0; position:relative; text-align:center; padding:1.8%;}
+
+.postTitulo{font-size:5vh; position:; width:100%; height:100%; margin:;}
+
+.postSeparador{margin:0px; padding:0px; top:; position:relative; width:100%;}
+
+.posterContenedor{top:; width:100%; height:32%; background:; position:relative; padding:1%;}
+
+.poster{position:relative; width:100%; height:100%;}
+
+.postSeparador2{margin:0px; padding:0px; top:; position:relative; width:100%; z-index:2;}
+
+.postContenido{ width:100%; min-height:56%; background:white; position:relative; padding:2% 5%; z-index:1;}
+
+#postContenido1{top:;}
+
+#postContenido2{top:;}
+
+.autorContenedor{box-shadow: 0 0 14px #888; padding:5%; text-align:center; z-index:4; margin-bottom:2%; top:; left:7.5%; background:white; width:85%; min-height:80%; position:relative;}
+
+.autornombreContenedor{width:100%; height:12%; padding-top:; position:relative; text-align:center;}
+
+.autorNombre{top:; left:; position:; width:; font-size:20px;}
+
+.autorimagenContenedor{width:100%; position:relative; min-height:20%; text-align: center; margin-bottom:15px;}
+
+.autorImagen{width:50%; background:gray; height:48%; position:relative;  margin-right:; left:; top:;}
+
+.autorestrellaContenedor{z-index:; width:100%; height:30%; position:relative; top:64%; margin-bottom:15px;}
+
+.autortablaContenedor{position:relative; top:; left:; min-height:5%; width:100%; text-align:center; margin-bottom:;}
+
+.autorTabla{background:#3b546d; opacity:; color:white; position:relative; width:30%; margin:0 auto; height:100%;}
+
+.contactoContenedor{box-shadow: 0 0 14px #888; left:7.5%; z-index:4; margin-bottom:2%; padding:5%; top:; background:white; width:85%; min-height:10%; position:relative;}
+
+.contactoIcono{position:relative; top:; left:0; width:20%; margin:; }
+
+#contactoAgregar{left:0%;}
+
+#contactoSeguir{left:15%;}
+
+#contactoInbox{left:25%;}
+
+#contactoPerfil{left:35%;}
+
+.calificarContenedor{box-shadow: 0 0 14px #888; left:7.5%; text-align:center; z-index:4; margin-bottom:2%; top:; background:white; width:85%; height:25%; position:relative;}
+
+.calificartituloContenedor{width:100%; position:relative; padding:1%; text-align:center;}
+
+.calificarTitulo{position:relative; top:0; left:0;}
+
+.calificarestrellaContenedor{z-index:; width:100%; height:30%; position:relative; left:0; top:;}
+
+.estrellaEfecto{position:absolute;  width:100%;}
+
+.estrellas{width:20%; position:relative; left:0;  color:#CECBCB; margin:0; padding:0;} .estrellas:hover{cursor:pointer;} 
+
+.estrellaResultado{position:relative; text-align:center;}
+
+.estrella{width:10%; position:relative; left:0; }
+
+.calificarSeparador{margin:0px; padding:0px; position:relative; width:100%; z-index:6;}
+
+#separador1{position:relative;}
+
+#separador2{position:relative;}
+
+.postestadisticasContenedor{position:relative; width:100%; min-height:20%; left:0; text-align:center;}
+
+.postEstadisticas{position:relative; top:; left:0%; margin:0 auto; padding:0;}
+
+#estadistica1{}
+
+#estadistica2{}
+
+#estadistica3{}
+
+
+
+
+/* RESPONSIVE
+   ========================================================================= */
+ 
+/* Móviles en horizontal o tablets en vertical
+   ------------------------------------------------------------------------- */
+@media (min-width: 768px) {
+.postContenedor{z-index:4; margin-top:20px; top:9%; left:10.5%; background:white; width:60%; min-height:83%; position:absolute;}
+
+.posttituloContenedor{width:100%; height:12%; background:; margin:0; position:absolute; text-align:center; padding-top:1.8%;}
+
+.postTitulo{font-size:5vh; position:; width:100%; height:100%; margin:0;}
+
+.postSeparador{margin:0px; padding:0px; top:12%; position:absolute; width:100%;}
+
+.posterContenedor{top:12%; width:100%; height:32%; background:; position:absolute; padding:1%;}
+
+.poster{position:relative; width:100%; height:100%;}
+
+.postSeparador2{margin:0px; padding:0px; top:44%; position:absolute; width:100%; z-index:2;}
+
+.postContenido{top:13%; width:100%; min-height:56%; background:white; position:absolute; padding:2% 5%; z-index:1;}
+
+.autorContenedor{text-align:center; z-index:4; margin-top:20px; top:9%; left:72%; background:white; width:16%; height:55%; position:absolute;}
+
+.autorNombre{top:3%; left:25%; position:absolute; width:; font-size:20px;}
+
+.autorImagen{width:70%; background:pink; height:48%; position:absolute;  left:15%; top:13%;}
+
+.autorestrellaContenedor{z-index:; width:100%; height:30%; position:absolute; top:64%;}
+
+.autortablaContenedor{position:absolute; top:73%; left:22%; height:5%;}
+
+.autorTabla{background:#3b546d; opacity:; color:white; position:absolute; width:100%; height:100%;}
+
+.contactoContenedor{z-index:4; margin-top:20px; top:65%; left:72%; background:white; width:16%; height:7%; position:absolute;}
+
+.contactoIcono{position:absolute; top:25%;}
+
+#contactoAgregar{left:15%;}
+
+#contactoSeguir{left:35%;}
+
+#contactoInbox{left:55%;}
+
+#contactoPerfil{left:75%;}
+
+.calificarContenedor{text-align:center; z-index:4; margin-top:20px; top:73%; left:72%; background:white; width:16%; height:19%; position:absolute;}
+
+.calificarTitulo{position:absolute; top:-13%; left:30%;}
+
+.calificarestrellaContenedor{z-index:; width:100%; height:30%; position:absolute; top:33%;}
+
+.calificarEstrella{display:none; z-index:1000; margin:0; padding:0;height:; color:;}
+
+.calificacionContenedor{z-index:1; width:100%; height:15%; position:absolute; top:33%;}
+
+.calificarSeparador{margin:0px; padding:0px; position:absolute; width:100%; z-index:6;}
+
+#separador1{top:27%;}
+
+#separador2{top:59%;}
+
+.postEstadisticas{position:absolute; top:65%;}
+
+#estadistica1{left:10%;}
+
+#estadistica2{left:45%;}
+
+#estadistica3{left:75%;}
+
+}
+ 
+/* Tablets en horizonal y escritorios normales
+   ------------------------------------------------------------------------- */
+@media (min-width: 1024px) { 
+
+
+.layer{position:relative; width:; min-height:100%; float:left;}
+
+#layer1{width:70%;}
+
+#layer2{width:16%;}
+
+.postContenedor{box-shadow: 0 0 14px #888; float:right; margin-right:10%; z-index:4; margin-bottom:5%; margin-top:85px; left:7.5%; background:white; width:85%; min-height:90%; position:relative;}
+
+.posttituloContenedor{width:100%; height:12%; background:; margin:0; position:relative; text-align:center; padding-top:1.8%;}
+
+.postTitulo{font-size:5vh; position:; width:100%; height:100%; margin:0;}
+
+.postSeparador{margin:0px; padding:0px; top:; position:relative; width:100%;}
+
+.posterContenedor{top:; width:100%; height:32%; background:; position:relative; padding:1%;}
+
+.poster{position:relative; width:100%; height:100%;}
+
+.postSeparador2{margin:0px; padding:0px; top:; position:relative; width:100%; z-index:2;}
+
+.postContenido{ width:100%; min-height:56%; background:white; position:relative; padding:2% 5%; z-index:1;}
+
+#postContenido1{top:;}
+
+#postContenido2{top:;}
+
+.autorContenedor{box-shadow: 0 0 14px #888; padding:5%; text-align:center; z-index:4; margin-bottom:2%; margin-top:85px; left:0; background:white; width:100%; min-height:40%; position:relative;}
+
+.autornombreContenedor{width:100%; height:12%; padding-top:; position:relative; text-align:center;}
+
+.autorNombre{top:; left:0; position:relative; width:; font-size:20px;}
+
+.autorimagenContenedor{width:100%; max-height:40%; position:relative; min-height:20%; text-align: center; margin-bottom:15px;}
+
+.autorImagen{width:85%; background:gray;  position:relative;  margin-right:; left:0; top:;}
+
+.autorestrellaContenedor{z-index:; width:100%; height:30%; position:relative; top:64%; margin-bottom:15px;}
+
+.autortablaContenedor{position:relative; top:; left:0; min-height:5%; width:100%; text-align:center; margin-bottom:;}
+
+.autorTabla{background:#3b546d; opacity:; color:white; position:relative; width:30%; margin:0 auto; height:100%;}
+
+.contactoContenedor{box-shadow: 0 0 14px #888; z-index:4; margin-bottom:0%; padding:5%; top:; left:0; background:white; width:100%; min-height:10%; position:relative;}
+
+.contactoIcono{position:relative; top:; left:0; width:20%; margin:; }
+
+#contactoAgregar{left:0%;}
+
+#contactoSeguir{left:15%;}
+
+#contactoInbox{left:25%;}
+
+#contactoPerfil{left:35%;}
+
+.calificarContenedor{box-shadow: 0 0 14px #888; text-align:center; z-index:4; margin-bottom:2%; top:; left:0; background:white; width:100%; height:25%; position:relative;}
+
+.calificartituloContenedor{width:100%; position:relative; padding:1%; text-align:center;}
+
+.calificarTitulo{position:relative; top:0; left:0;}
+
+.calificarestrellaContenedor{z-index:; width:100%; height:30%; position:relative; left:0; top:;}
+
+.estrellaEfecto{position:absolute;  width:100%;}
+
+.estrellas{ position:relative; color:#CECBCB;} 
+
+.estrellas:hover{cursor:pointer;} 
+
+.estrellaResultado{position:relative; }
+
+.estrella{position:relative;} 
+
+#text{position:absolute;}
+
+.calificarSeparador{margin:0px; padding:0px; position:relative; width:100%; z-index:6;}
+
+#separador1{position:relative;}
+
+#separador2{position:relative;}
+
+.postestadisticasContenedor{position:relative; width:100%; min-height:30%; left:0; text-align:;}
+
+.postEstadisticas{position:relative; top:; left:0%; margin:0 auto; padding:0;}
+
+#estadistica1{left:0;}
+
+#estadistica2{}
+
+#estadistica3{}
+
+}
+ 
+/* Escritorios muy anchos
+   ------------------------------------------------------------------------- */
